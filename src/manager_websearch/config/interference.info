@@ -1,0 +1,10 @@
+[INTERFERENCE]
+BENCH_NAME=shashank/interference-benchmark
+MEM_COMMAND=python /root/indices/benchmark/bench-collection/local_bench/runtest.py
+BENCH_NAME_SEC=shashank/java_memapp
+MEM_COMMAND_SEC=java LongRunning
+CPU_COMMAND=lookbusy -c {0} -n {1}
+MEMORY_THRESHOLD=50
+
+[RESOURCE_ALLOC]
+5=5,12288
